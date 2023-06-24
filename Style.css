@@ -1,0 +1,96 @@
+.main {
+  padding: 20px;
+}
+
+.arrow {
+  background-color: rgb(30, 157, 207);
+  color: white;
+  border: none;
+  height: 30px;
+  width: 50px;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+.selectAllButton {
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+}
+
+.clearAllButton {
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+}
+
+.selectAllButton:hover {
+  cursor: pointer;
+}
+
+.clearAllButton:hover {
+  cursor: pointer;
+}
+
+.countButtons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  margin-bottom: 10px;
+  
+}
+
+.topHeading {
+  background-color: rgb(30, 157, 207);
+  color: white;
+  padding-top: 0.25px;
+  padding-bottom: 0.25px;
+  margin-left: 5px;
+}
+
+.searchBox {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  padding: 5px;
+  width: 85%;
+  background-color: rgb(224, 224, 221);
+}
+
+.heading {
+  margin-left: 10px;
+}
+
+.count {
+  margin: 0;
+  margin-right: 10px;
+  font-weight: normal;
+  
+}
+
+.recordsContainer {
+  height: 250px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.recordsList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.recordsList li {
+  margin-bottom: 10px;
+}
+
+.selectAndClearButtons {
+  background-color: white;
+}
+
+.countButtons .selectAndClearButtons {
+  margin-left: auto; 
+}
